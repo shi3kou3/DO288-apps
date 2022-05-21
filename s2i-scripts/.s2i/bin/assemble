@@ -21,7 +21,7 @@ echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 
 echo "---> yaguchi original"
-echo "Page built on $DATE" >> ./info2.html
+echo "Page built on $DATE2" >> ./info2.html
 echo "OK" >> ./info2.html
 
 ######## CUSTOMIZATION ENDS HERE ############
