@@ -20,6 +20,7 @@ echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "test build on $DATE2" >> ./info2.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+echo "test test test" >> ./index.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
