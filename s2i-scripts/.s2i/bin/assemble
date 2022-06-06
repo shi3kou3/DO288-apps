@@ -11,10 +11,11 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-cp -Rf /tmp/src/*.html ./
+cp -Rf /tmp/src/ .
 
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 DATE2=`date "+%Y %m %d"`
+DATE3=`date "+%Y %m %d"`
 
 echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
